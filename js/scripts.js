@@ -1,12 +1,4 @@
-/*
-   
-    Template Name : Rolling - Freelancer Portfolio Template
-    Author : UiPasta Team
-    Website : http://www.uipasta.com/
-    Support : http://www.uipasta.com/support/
-	
-	
-*/
+
 
 
 
@@ -107,12 +99,13 @@
 		
 		
         /* Typed.js */
-		
+	 	
         $(window).load(function(){
+
         $(".typing").typed({
-            strings: ["I am A Freelancer.", "I Design Websites.", "I Live in New York."],    /* You can change the home section typing text from
-	                                                                                            here and do not use "&" use "and" */
-            typeSpeed: 50
+        
+            strings: ["Hello there👋", "Welcome to Tekla Events😊"],    
+            typeSpeed: 100
           });
          });
         
