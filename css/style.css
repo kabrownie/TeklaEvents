@@ -853,7 +853,7 @@ ul.portfolio li.active {
     padding: 12px 20px;
     border-radius: 8px;
       border-color: transparent;
-    background-color: var(--color-blue);
+    background-color: green;
     color: #fff;
     font-weight: 700;
     font-size: 18px;
@@ -862,7 +862,7 @@ ul.portfolio li.active {
   }
   
   .formcarry-form button:hover {
-    background-color: var(--color-light-blue);
+    background-color: green
   }
   
   .formcarry-alert {

@@ -64,10 +64,12 @@ if (isset($_POST['email'])) {
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
+
+    header('location: success.php');
 ?>
 
     <!-- Replace this as your success message -->
-
+    header('location: success.php');
     Thanks for contacting us, we will get back to you as soon as possible.
 
 <?php
